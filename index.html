@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Laboratorio virtual de discos, particiones y sistemas de archivos para Digitalización de 4.º ESO.">
+  <meta name="theme-color" content="#12233f">
+  <title>DiscoLab · Digitalización</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312233f'/%3E%3Crect x='5' y='8' width='22' height='16' rx='2' fill='%23fff'/%3E%3Cpath d='M13 8v16M21 8v16' stroke='%23008187' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/pdf-lib.min.js"></script>
+  <script defer src="core.js"></script>
+  <script defer src="report.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Saltar a la práctica</a>
+  <div id="app"></div>
+  <input id="load-file" type="file" accept=".json,application/json" hidden>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>Activa JavaScript en el navegador para utilizar la simulación.</noscript>
+</body>
+</html>
